@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class UserPrincipal implements UserDetails {
     private User user;
 
-    UserPrincipal(User user) {
+    public UserPrincipal(User user) {
         this.user = user;
     }
 

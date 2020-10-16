@@ -118,7 +118,7 @@ public class User implements Serializable {
         this.lastLoginDate = lastLoginDate;
     }
 
-    public Date getLastLoginDateDisplay() {
+    public Date getLastLoginDateDisplay(Date lastLoginDate) {
         return lastLoginDateDisplay;
     }
 
