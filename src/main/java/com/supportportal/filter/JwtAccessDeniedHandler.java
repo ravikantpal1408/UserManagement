@@ -29,5 +29,3 @@ public class JwtAccessDeniedHandler implements AccessDeniedHandler {
         outputStream.flush();
     }
 }
-
-// This is 401 - un-authorized handler

@@ -29,4 +29,3 @@ public class JwtAuthenticationEntryPoint extends Http403ForbiddenEntryPoint {
         outputStream.flush();
     }
 }
-// this is 403 - Forbidden | for those roles who doesn't have access to certain functionality
